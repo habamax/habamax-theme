@@ -139,7 +139,7 @@
 
    ;; eshell
    '(eshell-ls-directory ((t (:inherit default :weight bold))))
-   `(eshell-prompt ((t (:foreground ,color-keyword))))
+   `(eshell-prompt ((t (:background ,color-dim-bg :foreground ,color-dim-fg :weight bold))))
 
 
    ;; flycheck
