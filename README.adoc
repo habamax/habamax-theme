@@ -1,0 +1,24 @@
+= habamax-theme
+:author: Maxim Kim
+:experimental:
+:icons: font
+:autofit-option:
+:source-highlighter: rouge
+:rouge-style: github
+:imagesdir: images
+:doctype: article
+
+
+Boring white background theme for Emacs editor.
+
+Because sometimes "boring" is a good thing.
+
+
+== Screenshots
+
+
+image::img_README_1.png[]
+
+image::img_README_2.png[]
+
+image::img_README_3.png[]
