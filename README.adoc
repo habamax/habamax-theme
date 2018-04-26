@@ -13,6 +13,7 @@ Boring white background theme for Emacs editor.
 
 Because sometimes "boring" is a good thing.
 
+image::img_README_4.png[]
 
 == Screenshots
 
