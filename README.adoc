@@ -16,13 +16,13 @@ Because sometimes "boring" is a good thing.
 
 == Screenshots
 
-.Uno
+=== Some coding
 image::img_README_1.png[]
 
 
-.Dos
+=== Some IRCing
 image::img_README_2.png[]
 
 
-.Tres
+=== Some emacs config mangling
 image::img_README_3.png[]
