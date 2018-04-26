@@ -19,8 +19,10 @@ Because sometimes "boring" is a good thing.
 .Uno
 image::img_README_1.png[]
 
+
 .Dos
 image::img_README_2.png[]
+
 
 .Tres
 image::img_README_3.png[]
