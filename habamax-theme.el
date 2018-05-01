@@ -14,9 +14,14 @@
 
 (deftheme habamax "Boring white. Gets the job done.")
 
+(defgroup habamax nil
+  "Habamax theme options."
+  :group 'faces)
+
 (defcustom habamax-theme-variable-heading-heights nil
   "Use different heights for headings for Asciidoctor, Org or Markdown."
-  :type 'boolean)
+  :type 'boolean
+  :group 'habamax)
 
 (let
     ((color-fg "#000000")
