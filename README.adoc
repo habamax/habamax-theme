@@ -23,7 +23,7 @@ Install it with `use-package` from Melpa archive:
 ----
 (use-package habamax-theme
   :config
-  (setq habamax-theme-variable-heading-heights nil)
+  (setq habamax-theme-variable-heading-heights t)
   (load-theme 'habamax t))
 ----
 
