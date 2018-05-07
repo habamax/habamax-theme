@@ -15,6 +15,18 @@ Because sometimes "boring" is a good thing.
 
 image::img_README_4.png[]
 
+== Installation
+
+Install it with `use-package` from Melpa archive:
+
+[source,elisp]
+----
+(use-package habamax-theme
+  :config
+  (setq habamax-theme-variable-heading-heights nil)
+  (load-theme 'habamax t))
+----
+
 == Screenshots
 
 === Some coding
