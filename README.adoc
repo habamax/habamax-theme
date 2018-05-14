@@ -1,6 +1,7 @@
 = habamax-theme
 :author: Maxim Kim
 :experimental:
+:toc:
 :icons: font
 :autofit-option:
 :source-highlighter: rouge
@@ -39,3 +40,15 @@ image::img_README_2.png[]
 
 === Some emacs config mangling
 image::img_README_3.png[]
+
+
+== Make it better
+
+I don't use that much major or minor modes and some colors or lack of it in your favorite mode might be really unpleasant.
+
+So tailor the theme according to your aesthetics (try not to make it too fancy) then
+
+. make a pull request
+. attach a screenshot :)
+
+and most probably, like in 99% I will accept it.
