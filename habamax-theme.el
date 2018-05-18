@@ -354,4 +354,4 @@
 
 (provide-theme 'habamax)
 
-;;; noname-theme.el ends here
+;;; habamax-theme.el ends here
