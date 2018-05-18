@@ -208,7 +208,7 @@
    ;; ivy
    `(ivy-current-match ((t (:background ,color-bg-highlight-2))))
    `(ivy-minibuffer-match-face-1 ((t (:foreground ,color-dim-fg))))
-   '(ivy-minibuffer-match-face-2 ((t (:foreground "#b030b0" :weight bold :underline (:color "b030b0")))))
+   '(ivy-minibuffer-match-face-2 ((t (:foreground "#b030b0" :weight bold :underline (:color "#b030b0")))))
    '(ivy-minibuffer-match-face-3 ((t (:inherit ivy-minibuffer-match-face-2))))
    '(ivy-minibuffer-match-face-4 ((t (:inherit ivy-minibuffer-match-face-3))))
    '(ivy-modified-buffer ((nil (:slant italic))))
