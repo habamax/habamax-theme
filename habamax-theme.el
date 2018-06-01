@@ -338,6 +338,10 @@
    `(markdown-header-face-6 ((t (:foreground ,color-heading :slant italic :height ,height-6))))
    `(markdown-code-face ((t (:background ,color-dim-bg))))
 
+   ;; outline
+   `(outline-1 ((t (:foreground ,color-heading :weight bold :height ,height-1))))
+   `(outline-2 ((t (:foreground ,color-heading :weight bold :height ,height-2))))
+   `(outline-3 ((t (:foreground ,color-heading :weight bold :height ,height-3))))
 
    ;; keycast-mode
    '(keycast-key ((t (:foreground "#FF0000" :background "#FFFF00" :weight bold :height 1.0))))
