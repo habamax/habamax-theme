@@ -342,6 +342,7 @@
    `(outline-1 ((t (:foreground ,color-heading :weight bold :height ,height-1))))
    `(outline-2 ((t (:foreground ,color-heading :weight bold :height ,height-2))))
    `(outline-3 ((t (:foreground ,color-heading :weight bold :height ,height-3))))
+   `(outline-4 ((t (:foreground ,color-heading :weight bold :height ,height-4))))
 
    ;; keycast-mode
    '(keycast-key ((t (:foreground "#FF0000" :background "#FFFF00" :weight bold :height 1.0))))
