@@ -180,6 +180,8 @@
    '(erc-action-face ((nil (:slant italic))))
    '(erc-button ((t (:inherit link))))
    `(erc-prompt-face ((t (:background ,color-dim-bg :foreground ,color-dim-fg :weight bold))))
+   '(erc-nick-msg-face ((nil (:foreground "#207000" :weight bold))))
+   '(erc-direct-msg-face ((nil (:foreground "#207000"))))
 
    ;; rcirc
    `(rcirc-server ((t (:foreground ,color-comment))))
