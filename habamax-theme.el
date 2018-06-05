@@ -72,14 +72,14 @@
    '(mode-line-inactive ((t (:background "#e0e5e2" :foreground "#505552" :box (:line-width 1 :color "#CECECE")))))
    `(vertical-border ((nil (:foreground ,color-gray))))
 
-   `(fringe ((nil (:background ,color-bg))))
-   `(line-number ((t (:background ,color-bg :foreground ,color-gray))))
-   `(line-number-current-line ((t (:background ,color-bg :foreground ,color-fg))))
-
    ;; not sure about fringe and other backgrounds
-   ;; '(fringe ((nil (:background "#f7f7f7"))))
-   ;; `(line-number ((t (:background "#f7f7f7" :foreground ,color-gray))))
-   ;; `(line-number-current-line ((t (:background "#f7f7f7" :foreground ,color-fg))))
+   ;; `(fringe ((nil (:background ,color-bg))))
+   ;; `(line-number ((t (:background ,color-bg :foreground ,color-gray))))
+   ;; `(line-number-current-line ((t (:background ,color-bg :foreground ,color-fg))))
+
+   '(fringe ((nil (:background "#f5f5f5"))))
+   `(line-number ((t (:background "#f5f5f5" :foreground ,color-comment))))
+   `(line-number-current-line ((t (:background "#f5f5f5" :foreground ,color-fg))))
 
    ;; powerline default theme
    `(powerline-active1 ((t (:foreground "#406582" :background "#95b5c5"))))

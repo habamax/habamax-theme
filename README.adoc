@@ -42,6 +42,18 @@ image::img_README_2.png[]
 image::img_README_3.png[]
 
 
+=== Emacs 26 line numbers
+
+With `global-display-line-numbers-mode` I am still not sure if line numbers
+should have their own background or not. And if they should then `fringe` has to
+have it too.
+
+image::img_README_5.png[]
+
+Well, let me add it for now...
+
+
+
 == Make it better
 
 I don't use that much major or minor modes and some colors or lack of it in your favorite mode might be really unpleasant.
