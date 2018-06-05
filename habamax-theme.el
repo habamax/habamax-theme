@@ -344,13 +344,18 @@
    `(outline-3 ((t (:foreground ,color-heading :weight bold :height ,height-3))))
    `(outline-4 ((t (:foreground ,color-heading :weight bold :height ,height-4))))
 
+   ;; custom
+   `(custom-face-tag ((t (:inherit default :weight bold))))
+   `(custom-variable-tag ((t (:inherit custom-face-tag :weight bold))))
+
    ;; keycast-mode
    '(keycast-key ((t (:foreground "#FF0000" :background "#FFFF00" :weight bold :height 1.0))))
    '(keycast-command ((t (:foreground "#000000" :height 1.0))))
 
-
    ;; slime
    `(slime-repl-prompt-face ((t (:background ,color-dim-bg :foreground ,color-dim-fg :weight bold))))))
+
+
 
 ;;;###autoload
 (when load-file-name
