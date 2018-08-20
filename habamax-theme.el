@@ -374,7 +374,10 @@
    '(keycast-command ((t (:foreground "#000000" :height 1.0))))
 
    ;; slime
-   `(slime-repl-prompt-face ((t (:background ,color-dim-bg :foreground ,color-dim-fg :weight bold))))))
+   `(slime-repl-prompt-face ((t (:background ,color-dim-bg :foreground ,color-dim-fg :weight bold))))
+
+   ;; table.el
+   `(table-cell ((t (:background "#F5F5EA" :foreground ,color-fg))))))
 
 
 
