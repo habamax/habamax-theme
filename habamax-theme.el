@@ -307,11 +307,14 @@
    `(web-mode-html-attr-name-face ((t (:foreground ,color-dim-fg))))
 
    ;; whitespace-mode
-   '(whitespace-space ((t (:foreground "#e7e7e7"))))
+   '(whitespace-space ((t (:foreground "#d7d7d7"))))
+   '(whitespace-indentation ((t (:foreground "#d7d7d7"))))
+   '(whitespace-tab ((t (:foreground "#d7d7d7"))))
    '(whitespace-trailing ((t (:background "#f07070" :foreground "#f0f000"))))
-   '(whitespace-space-after-tab ((t (:background "#f07070" :foreground "#f0f000"))))
-   '(whitespace-indentation ((t (:background "#f0f0f0" :foreground "#aaaaaa"))))
-   '(whitespace-line ((nil (:background "#f7f7f0"))))
+   '(whitespace-space-after-tab ((t (:foreground "#f0a0a0"))))
+   ;; '(whitespace-indentation ((t (:background "#f0f0f0" :foreground "#aaaaaa"))))
+   ;; '(whitespace-line ((nil (:background "#f7f7f0"))))
+   '(whitespace-line ((nil (nil))))
 
 
    ;; rainbow-delimiters
